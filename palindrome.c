@@ -6,7 +6,7 @@ int main()
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
-    while (str[len] != '\0' && str[len != '\n') 
+    while (str[len] != '\0' && str[len] != '\n') 
     {
         len++;
     }
