@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     char str[200], word[50], long[50];
     int i = 0, j = 0, maxlen = 0, len = 0;
 
