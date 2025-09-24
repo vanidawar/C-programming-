@@ -1,16 +1,16 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     char str[100];
-    int i, j, flag = 1, length = 0;
+    int i, j, flag = 1, len = 0;
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
-    while (str[length] != '\0' && str[length] != '\n') 
+    while (str[len] != '\0' && str[len != '\n') 
     {
-        length++;
+        len++;
     }
-    j = length - 1;
+    j = len - 1;
     for (i = 0; i < j; i++, j--) 
     {
         if (str[i] != str[j]) 
