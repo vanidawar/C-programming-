@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char str[200], word[50], longest[50];
-    int i = 0, j = 0, maxLen = 0, len = 0;
+    char str[200], word[50], long[50];
+    int i = 0, j = 0, maxlen = 0, len = 0;
 
     printf("Enter a sentence: ");
     fgets(str, sizeof(str), stdin);
@@ -20,18 +20,18 @@ int main() {
             {
                 len++;
             }
-            if (len > maxLen) 
+            if (len > maxlen) 
             {
-                maxLen = len;
+                maxlen = len;
                 int k = 0;
                 while (word[k] != '\0') {
-                    longest[k] = word[k];
+                    long[k] = word[k];
                     k++;
                 }
-                longest[k] = '\0';
+                long[k] = '\0';
             }
             j = 0; 
         }
     }
-    printf("Longest word: %s\n", longest);
+    printf("Longest word: %s\n", long);
 }
